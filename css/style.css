@@ -1,0 +1,165 @@
+body {
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", "Times New Roman", serif;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main h1 {
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    font-family:"Open Sans Condensed", sans-serif;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+blockquote {
+    background-color: #D3DDDA;
+    border: 10px solid #C2CCCA ;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 20px 40px;
+    float: right;
+}
+
+aside {
+    background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+footer {
+    background-color: #000;
+	color: #F2FFFC;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+main a {
+	color: #851944;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+aside {
+    text-align: center;
+}
+
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+    clear: both;
+}
+
+nav a:hover {
+    color:black
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+.footer {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github {
+    background-image: url(img/github.png);
+}
+
+.twitter {
+    background-image: url(img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(img/linkedin.png);
+}
+
+.fiat {
+    float: right;
+    margin: 0 0 0 20px;
+}
+
+.petrobras {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+aside, .minha-foto {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+aside {
+    clear: right;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+
+main {
+    float: left;
+    width: 85%;
+    padding-bottom: 80px;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
